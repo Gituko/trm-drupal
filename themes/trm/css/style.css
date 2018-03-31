@@ -1,0 +1,66 @@
+@font-face {
+    font-family: HelV-lt;
+    src: url(fonts/HelveticaWorld-Regular.ttf);
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+.carousel-inner{
+    margin-bottom:20px;
+}
+
+
+body{
+    font-family: HelV-lt;
+}
+
+.navbar{
+    background-color:#ffffff;
+}
+.topTitle{
+    text-align:center;
+    font-size:26px;
+    padding-top: 14px;
+    font-family:HelV-lt;
+    
+}
+body.navbar-is-fixed-top {
+    margin-top: 115px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.tafutaMain{
+  float:right;
+  max-width:300px;
+}
+.form-item{
+  margin:0px;
+  padding-top:10px;
+}
+.form-control, .btn, .dropdown-menu{
+  border-radius:0px;
+}

@@ -1,0 +1,23 @@
+{% extends "input.html.twig" %}
+
+
+  
+  
+  
+
+{% spaceless %}
+  {%
+    set classes = [
+      'form-control',
+      'tafuta',
+      
+    ]
+  %}
+  
+
+  {% block input %}
+    <input{{ attributes.addClass(classes) }} />
+  {% endblock %}
+  
+ 
+{% endspaceless %}
